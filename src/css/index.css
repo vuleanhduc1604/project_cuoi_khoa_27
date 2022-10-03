@@ -1,0 +1,142 @@
+.menu-anchor-1, .menu-anchor-2, .menu-anchor-3, .menu-anchor-4, .menu-anchor-5 {
+    color: rgb(133,133,133);
+    text-decoration: none;
+}
+.menu-anchor-1:hover, .menu-anchor-2:hover, .menu-anchor-3:hover, .menu-anchor-4:hover, .menu-anchor-5:hover {
+    color: #c5590f
+}
+.menu-anchor-1 {
+    color: #c5590f;
+}
+.banner-img {
+    width: 100%;
+}
+.slick-dots {
+    color: #c5590f;
+}
+
+.banner {
+    z-index: -1;
+}
+
+.who-are-we {
+    width: 900px;
+}
+.img-1, .img-2 {
+    width: 432px;
+}
+
+.quote-wrapper {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding-left: 7px;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-color: #c5590f;
+}
+.desc-wrapper {
+    margin-bottom: 30px;
+}
+.find-out-btn {
+    color: #ffffff;
+    background-color: #c5590f;
+    border-style: none;
+    border-radius: 5px;
+    padding: 3px 20px 3px 20px;
+}
+.clients-profit {
+    width: 900px;
+}
+.clients-list {
+    width: 80%;
+    background-color: white;
+}
+.service-wrapper, .service-bg {
+    width: 800px;
+    margin: auto;
+    background-image: url(./assets/Picture5.webp);
+    background-size: 100%;
+}
+.img-bg, .img-bg-2, .img-bg-3 {
+    position: absolute;
+    z-index: -1;
+    width: 228px;
+}
+.service-bg {
+    position: absolute;
+    z-index: -2;
+}
+.bg-1, .bg-2, .bg-3, .bg-service {
+    width: 100%;
+}
+.service-desc {
+    font-size: 15px;
+}
+.service-1, .service-2, .service-3 {
+    width: 228px;
+    height: 268px;
+}
+.service-desc, .service-head {
+    margin-bottom: 4px;
+    text-align: center;
+}
+.service-head-1, .service-head-2, .service-head-3 {
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.service-head-1 {
+    color: #c5590f;
+}
+.service-head-2 {
+    color: #FFC000;
+}
+.service-head-3 {
+    color: #393939;
+}
+.content-service-1, .content-service-2, .content-service-3 {
+    margin: auto;
+    margin-top: 100px;
+}
+input, .problem {
+    display: block;
+    width: 326px;
+    font-size: 14px;
+    line-height: 19.6px;
+    padding: 3px 3px 3px 14px;
+    min-height: 34px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(145,145,145);
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+.left-wrapper {
+    margin-right: 15px;
+}
+.problem {
+    min-height: 78px;
+    padding-top: 6px;
+}
+
+.gray-bg {
+    background-color: #F2F2F2;
+}
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.header-1, .header-2, .header-3 {
+    margin-bottom: 6px;
+}
+.gioi-thieu {
+    margin-bottom: 20px;
+}
+.padding-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
