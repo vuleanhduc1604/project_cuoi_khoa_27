@@ -9,20 +9,7 @@
     border-bottom-color: #c5590f;
     border-bottom-width: 1px;   
 } */
-.left-header {
-    font-size: 24px;
-    color: #c5590f;
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    margin-bottom: 5px;
-}
-.first-part-content, .second-part-content, .third-part-content {
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    color: #595959;
-    margin-bottom: 9px;
-}
+
 .img {
     width: 275px;
 }
@@ -34,13 +21,7 @@
 .tam-nhin-img, .su-menh-img, .gia-tri-img {
     width: 66px;
 }
-.tam-nhin-header, .su-menh-header, .gia-tri-header, .chuong-trinh-noi-bat-header, .chu-de-dao-tao-header {
-    color: #c5590f;
-    font-size: 24px;
-    line-height: 1.2em;
-    font-family: Roboto Condensed, sans-serif;
-    font-weight: 700;
-}
+
 .tam-nhin-header, .su-menh-header, .gia-tri-header {
     letter-spacing: .05em;
 }

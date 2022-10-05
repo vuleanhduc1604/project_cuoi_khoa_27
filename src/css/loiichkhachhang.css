@@ -1,0 +1,15 @@
+.middle-content-img {
+    width: 251px;
+}
+.middle-content-first {
+    background-image: url("Picture2.webp");
+}
+.middle-content-second-header {
+    font-size: 25px
+}
+.middle-content-header {
+    margin: 0;
+}
+.bold {
+    font-weight: bold;
+}

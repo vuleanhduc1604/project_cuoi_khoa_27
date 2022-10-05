@@ -10,6 +10,7 @@ $('.banner').slick({
     swipeToSlide: true,
 }
 );
+
 $('.clients-list').slick({
     slidesToShow: 5,
     infinite: true, 

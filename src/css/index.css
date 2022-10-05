@@ -100,27 +100,10 @@
     margin: auto;
     margin-top: 100px;
 }
-input, .problem {
-    display: block;
-    width: 326px;
-    font-size: 14px;
-    line-height: 19.6px;
-    padding: 3px 3px 3px 14px;
-    min-height: 34px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(145,145,145);
-    margin-bottom: 10px;
-    border-radius: 2px;
-}
+
 .left-wrapper {
     margin-right: 15px;
 }
-.problem {
-    min-height: 78px;
-    padding-top: 6px;
-}
-
 .gray-bg {
     background-color: #F2F2F2;
 }

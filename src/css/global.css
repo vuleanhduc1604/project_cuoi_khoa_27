@@ -68,7 +68,8 @@ a:hover, .menu-content:hover {
     padding-top: 102px;
 }
 .grey-bold {
-    color: #595959
+    color: #595959;
+    font-weight: bold;
 }
 .content-header {
     font-size: 30px;
@@ -141,4 +142,63 @@ a:hover, .menu-content:hover {
 .linkedin, .insta, .fb, .twitter {
     width: 40px;
     margin-right: 20px;
+}
+input, .problem {
+    display: block;
+    width: 326px;
+    font-size: 14px;
+    line-height: 19.6px;
+    padding: 3px 3px 3px 14px;
+    min-height: 34px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(145,145,145);
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+.bg {
+    width: 100%;
+}
+.left-header {
+    font-size: 24px;
+    color: #c5590f;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.first-part-content, .second-part-content, .third-part-content {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #595959;
+    margin-bottom: 9px;
+}
+.tam-nhin-header, .su-menh-header, .gia-tri-header, .chuong-trinh-noi-bat-header, .chu-de-dao-tao-header, .middle-content-second-header {
+    color: #c5590f;
+    font-size: 24px;
+    line-height: 1.2em;
+    font-family: Roboto Condensed, sans-serif;
+    font-weight: 700;
+}
+.chuong-trinh-noi-bat-slick {
+    width: 200px;
+    margin: auto;
+}
+.middle-content {
+    width: 721px;
+}
+.problem {
+    min-height: 78px;
+    max-height: 78px;
+    padding-top: 6px;
+    margin: 0;
+}
+.email {
+    margin-bottom: 11px;
+}
+.left-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 15px;
 }
