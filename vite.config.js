@@ -6,7 +6,7 @@ export default defineConfig({
     root: "./src",
     publicDir: "assets",
     build: {
-        publicDir: "assets",
+        outDir: "./dist",
         rollupOptions: {
             input: {
                 index: resolve(__dirname, "src/index.html"),
