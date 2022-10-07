@@ -4,8 +4,9 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
     root: "./src",
+    publicDir: "assets",
     build: {
-        outDir: "./dist",
+        outDir: "dist",
         rollupOptions: {
             input: {
                 index: resolve(__dirname, "src/index.html"),
