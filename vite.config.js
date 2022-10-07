@@ -6,7 +6,8 @@ export default defineConfig({
     root: "./src",
     publicDir: "assets",
     build: {
-        outDir: "dist",
+        outDir: "../dist",
+        publicDir: "assets",
         rollupOptions: {
             input: {
                 index: resolve(__dirname, "src/index.html"),
@@ -14,7 +15,7 @@ export default defineConfig({
                 products: resolve(__dirname, "src/products.html"),
                 gioithieu: resolve(__dirname, "src/gioithieu.html"),
                 loiichkhachhang: resolve(__dirname, "src/loiichkhachhang.html"),
-                dichvu: resolve(__dirname, "src/dichvu.html"),
+                dichvu: resolve(__dirname, "src/dichvu.html")
             },
         },
     },
