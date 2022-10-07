@@ -5,6 +5,10 @@
     letter-spacing: .05rem;
     font-weight: bold;
     text-align: center;
+    line-height: 0px;
+    border-bottom-color: #595959;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }
 .sub1-dich-vu-1-header {
     font-family: "Roboto Condensed", sans-serif;
