@@ -162,6 +162,17 @@ input, .problem {
 .bg {
     width: 100%;
 }
+.left-side-bar {
+    margin-left: 69px;
+    margin-top: 42px;
+}
+.right-side-bar {
+    margin-right: 69px;
+    margin-top: 42px;
+}
+.middle-content {
+    margin-top: 42px;
+}
 .left-header {
     font-size: 24px;
     color: #c5590f;
@@ -182,6 +193,9 @@ input, .problem {
     line-height: 1.2em;
     font-family: Roboto Condensed, sans-serif;
     font-weight: 700;
+}
+.chu-de-dao-tao-header {
+    margin-top: 31px;
 }
 .chuong-trinh-noi-bat-slick {
     width: 200px;
