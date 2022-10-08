@@ -1,8 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import "slick-carousel/slick/slick.min.js"
 import $ from "jquery";
-
-import "../css/index.css";
 $('.banner').slick({
     slidesToShow: 1,
     infinite: true, 
