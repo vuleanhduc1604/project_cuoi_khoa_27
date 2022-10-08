@@ -385,3 +385,18 @@ input, .problem {
         width: 300px;
     }
 }
+.fa-solid {
+    font-weight: 900;
+    font-size: 30px;
+}
+.menu-collapse {
+    display: none;
+}
+@media screen and (max-width: 1070px) {
+    .menu {
+        display: none;
+    }
+    .menu-collapse {
+        display: inline-block
+    }
+}
