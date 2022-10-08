@@ -8,7 +8,7 @@
 .menu {
     display: flex;
     justify-content: space-between;
-    min-width: 700px;
+    width: 700px;
 }
 .logo-sk {
     max-height: 63px;
@@ -241,6 +241,7 @@ input, .problem {
 
 .who-are-we {
     width: 900px;
+    display: flex
 }
 .img-1, .img-2 {
     width: 432px;
@@ -342,4 +343,13 @@ input, .problem {
 .padding-wrapper {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+/* Responsive Menu */
+@media screen and (max-width: 1350px) {
+    .menu-anchor-1, .menu-anchor-2, .menu-anchor-3, .menu-anchor-4, .menu-anchor-5 {
+        font-size: 15px;
+    }
+    .menu {
+        max-width: 650px;
+    }
 }
