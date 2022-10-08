@@ -13,8 +13,8 @@
 .logo-sk {
     max-height: 63px;
 }
-.menu-2-1 {
-    margin-bottom: 20px;;
+.menu-2-1, .menu-3-1, .menu-3-2 {
+    margin-bottom: 20px;
 }
 .header {
     display: flex;
@@ -227,9 +227,6 @@ input, .problem {
 }
 .menu-anchor-1:hover, .menu-anchor-2:hover, .menu-anchor-3:hover, .menu-anchor-4:hover, .menu-anchor-5:hover {
     color: #c5590f
-}
-.menu-anchor-1 {
-    color: #c5590f;
 }
 .banner-img {
     width: 100%;
