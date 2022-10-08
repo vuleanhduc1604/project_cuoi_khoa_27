@@ -10,7 +10,7 @@ export default defineConfig({
         publicDir: "assets",
         rollupOptions: {
             input: {
-                trangchu: resolve(__dirname, "src/trangchu.html"),
+                index: resolve(__dirname, "src/index.html"),
                 about: resolve(__dirname, "src/about.html"),
                 products: resolve(__dirname, "src/products.html"),
                 gioithieu: resolve(__dirname, "src/gioithieu.html"),
