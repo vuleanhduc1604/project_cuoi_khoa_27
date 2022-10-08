@@ -123,3 +123,13 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+/* Responsive content index.html */
+@media screen and (max-width: 1000px) {
+    .who-are-we {
+        flex-direction: column-reverse;
+    }
+    .img-1 {
+        min-width: 325px;
+        max-width: 500px;
+    }
+}
