@@ -132,9 +132,7 @@
         min-width: 325px;
         max-width: 400px;
     }
-    .footer {
-        flex-direction: column;
-    }
+
 }
 @media screen and (max-width: 900px) {
     .service-wrapper {

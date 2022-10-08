@@ -101,8 +101,8 @@ a:hover, .menu-content:hover {
 /* Footer */
 .footer {
     background-image: url(../assets/Footer.webp);
+    background-repeat: no-repeat;
     background-size: 100%;
-    width: 100%;
     padding: 30px 175px 30px 175px;
 }
 .submit-footer {
@@ -358,7 +358,7 @@ input, .problem {
         flex-direction: column;
     }
     .left-wrapper {
-        margin: 0;
+        margin-right: 0 !important;
     }
     .email {
         margin-bottom: 0px;
@@ -366,5 +366,22 @@ input, .problem {
     input, textarea {
         width: 100% !important;
         margin-bottom: 10px !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .footer {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        background-size: cover;
+    }
+    .news-footer, .info-footer, .social-footer {
+        margin: auto;
+    }
+    .info-footer, .social-footer {
+        margin-top: 20px;
+    }
+    .info-footer {
+        width: 300px;
     }
 }
