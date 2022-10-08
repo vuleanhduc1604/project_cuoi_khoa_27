@@ -128,8 +128,13 @@
     .who-are-we, .clients-profit {
         flex-direction: column-reverse;
     }
-    .img-1m .img-2 {
+    .img-1 .img-2 {
         min-width: 325px;
         max-width: 500px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .service-wrapper {
+        flex-direction: column;
     }
 }
