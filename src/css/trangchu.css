@@ -125,10 +125,10 @@
 }
 /* Responsive content index.html */
 @media screen and (max-width: 1000px) {
-    .who-are-we {
+    .who-are-we, .clients-profit {
         flex-direction: column-reverse;
     }
-    .img-1 {
+    .img-1m .img-2 {
         min-width: 325px;
         max-width: 500px;
     }
