@@ -21,6 +21,14 @@ $('.clients-list').slick({
     swipeToSlide: true,
 }
 );
+$('.chuong-trinh-noi-bat-slick').slick({
+  slidesToShow: 1,
+  infinite: true, 
+  autoplay: true,
+  arrows: false,
+  swipeToSlide: true,
+  fade: true,
+});
 const bannerWrapper = document.querySelector('.banner-wrapper');
 bannerWrapper.style.width = window.innerWidth;
 window.onscroll = function() {myFunction()};

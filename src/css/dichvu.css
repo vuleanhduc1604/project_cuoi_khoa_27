@@ -5,10 +5,9 @@
     letter-spacing: .05rem;
     font-weight: bold;
     text-align: center;
-    line-height: 0px;
-    border-bottom-color: #595959;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
+}
+.bg-wrapper {
+    margin-bottom: 30px;
 }
 .sub1-dich-vu-1-header {
     font-family: "Roboto Condensed", sans-serif;
@@ -17,6 +16,11 @@
     letter-spacing: .05rem;
     font-weight: bold;
     text-align: center;
+}
+.sub1-dich-vu-1-content {
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 66px;
 }
 .content-header-wrapper {
     padding: 0 20px 0 20px;
@@ -69,4 +73,11 @@
     border-style: solid;
     border-width: 1px;
     border-color: #c5590f;
+    transition: .2s;
+}
+.see-more:hover {
+    color: #c5590f;
+    background-color: #ffffff;
+    border-color: #000000;
+    transition: .2s;
 }
