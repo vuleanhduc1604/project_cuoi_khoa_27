@@ -353,3 +353,18 @@ input, .problem {
         max-width: 650px;
     }
 }
+@media screen and (max-width: 900px) {
+    .input-wrapper {
+        flex-direction: column;
+    }
+    .left-wrapper {
+        margin: 0;
+    }
+    .email {
+        margin-bottom: 0px;
+    }
+    input, textarea {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+}
