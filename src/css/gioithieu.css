@@ -40,3 +40,35 @@
 .menu-anchor-2 {
     color: #c5590f;
 }
+
+@media screen and (max-width: 900px) {
+    .bg-wrapper {
+        display: flex;
+        width: 100%;
+        align-items: start;
+        justify-content: start;;
+    }
+
+    .tam-nhin-wrapper, .gia-tri-wrapper, .su-menh-wrapper, .gioi-thieu {
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .img-wrapper, .gioi-thieu-desc-wrapper, .tam-nhin-header, .middle-content, .tam-nhin-content-wrapper, .tam-nhin-content, .su-menh-content-wrapper, .su-menh-content, .gia-tri-content-wrapper, .gia-tri-content {
+        text-align: center !important;
+        width: 100% !important;
+    }
+    .tam-nhin-img, .su-menh-img, .gia-tri-img {
+        margin: auto;
+    }
+    .img {
+        margin: auto;
+    }
+    .bg {
+        height: 88.135px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .img {
+        width: 100%;
+    }
+}
