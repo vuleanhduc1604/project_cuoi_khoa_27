@@ -16,11 +16,13 @@
     letter-spacing: .05rem;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 0px;
 }
 .sub1-dich-vu-1-content {
     width: 1000px;
     margin: auto;
     margin-bottom: 66px;
+    align-items: center;
 }
 .content-header-wrapper {
     padding: 0 20px 0 20px;
@@ -61,6 +63,8 @@
 .content-container {
     width: 280px;
     background-color: #F9F9F9;
+    margin-top: 1rem !important;
+    margin: auto;
 }
 .see-more {
     color: #ffffff;

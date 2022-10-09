@@ -170,7 +170,7 @@ input, .problem {
     margin-top: 42px;
 }
 .middle-content {
-    margin-top: 42px;
+    margin-top: 42px !important;
 }
 .left-header {
     font-size: 24px;
@@ -407,4 +407,15 @@ input, .problem {
 }
 .account {
     color: #000000 !important;
+}
+.body-index, .bg {
+    margin-top: 90px;
+}
+@media screen and (max-width: 1380px) {
+    .left-side-bar, .right-side-bar {
+        display: none;
+    }
+    .middle-content {
+        margin: auto;
+    }
 }
