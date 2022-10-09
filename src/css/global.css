@@ -239,7 +239,7 @@ input, .problem {
 }
 
 .who-are-we {
-    width: 900px;
+    width: 900px !important;
     display: flex
 }
 .img-1, .img-2 {
@@ -265,7 +265,7 @@ input, .problem {
     padding: 3px 20px 3px 20px;
 }
 .clients-profit {
-    width: 900px;
+    width: 900px !important;
 }
 .clients-list {
     width: 80%;
@@ -352,6 +352,8 @@ input, .problem {
 @media screen and (max-width: 900px) {
     .input-wrapper {
         flex-direction: column;
+        padding-left: 12px;
+        padding-right: 12px;
     }
     .left-wrapper {
         margin-right: 0 !important;
@@ -388,15 +390,21 @@ input, .problem {
 .menu-collapse {
     display: none;
 }
-@media screen and (max-width: 1070px) {
-    .menu-collapse {
-        display: inline-block
-    }
-}
 .nav {
     position: absolute;
     left: -100px;
     top: 0px;
     background-color: #F2F2F2;
     height: 100%;
+}
+@media screen and (max-width: 580px) {
+    .who-are-we, .clients-profit {
+        width: 100% !important;
+    }
+    .img-1, .img-2 {
+        width: 100%;
+    }
+}
+.account {
+    color: #000000 !important;
 }
