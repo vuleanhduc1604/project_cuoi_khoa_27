@@ -11,57 +11,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/menu.scss">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/dichvu.css">
     <title>Dịch vụ</title>
 </head>
 <body>
-    <div class="header">
-        <div class="logo">
-            <img src="assets/sk-logo.webp" alt="" class="logo-sk">
-        </div>
-        <div class="menu">
-            <div class="menu-1 sub-menu">
-                <a href="index.html" class="menu-anchor-1 menu-anchor" id="dropdownMenu1" data-bs-toggle="dropdown">Trang chủ</a>
-            </div>
-            <div class="menu-2 sub-menu">
-                <div class="menu-anchor-wrapper-2">
-                    <a href="gioithieu.html" class="menu-anchor-2" id="dropdown-toggle-2">Giới thiệu <i class="fa fa-caret-down"></i></a>
-                </div>
-                <div class="dropdown-menu-2">
-                    <div class="menu-2-1 menu-top">
-                        <a href="gioithieu.html" class="menu-content" id="menu-1">Về chúng tôi</a>
-                    </div>
-                    <div class="menu-2-2">
-                        <a href="loiichkhachhang.html" class="menu-content" id="menu-1">Lợi ích khách hàng</a>
-                    </div>
-                </div>
-            </div>
-            <div class="menu-3 sub-menu">
-                <div class="menu-anchor-wrapper-3">
-                    <a href="" class="menu-anchor-3" id="dropdown-toggle-2">Dịch vụ <i class="fa fa-caret-down"></i></a>
-                </div>
-                <div class="dropdown-menu-3">
-                    <div class="menu-3-1 menu-top">
-                        <a href='#dich-vu-1' class="menu-content">Tư vấn quản lý</a>
-                    </div>
-                    <div class="menu-3-2">
-                        <a href='#dich-vu-2' class="menu-content">Khảo sát và đánh giá năng lực</a>
-                    </div>
-                    <div class="menu-3-3">
-                        <a href='#dich-vu-3' class="menu-content">Đào tạo và phát triển</a>
-                    </div>
-                </div>
-            </div>
-            <div class="menu-4 sub-menu">
-                <a href="" class="menu-anchor-4 menu-anchor">Tuyển dụng</a>
-            </div>
-            <div class="menu-5 sub-menu">
-                <a href="" class="menu-anchor-5 menu-anchor">Liên hệ</a>
-            </div>
-        </div>
-    </div>
+    <header class="header" id="header">
+        <section class="wrapper container">      
+           <div class="burger" id="burger">
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+           </div>
+           <span class="overlay"></span>
+           <img src="assets/sk-logo.png" alt="" srcset="" class="logo-sk">
+           <nav class="navbar" id="navbar">
+              <ul class="menu" id="menu">
+                 <li class="menu-item home-item"><a href="#" class="menu-link">Home</a></li>
+                 <li class="menu-item menu-dropdown">
+                    <span class="menu-link" data-toggle="submenu">Giới thiệu<i class="bx bx-chevron-down"></i></span>
+                    <ul class="submenu">
+                       <li class="submenu-item"><a href="#" class="submenu-link">Về chúng tôi</a></li>
+                       <li class="submenu-item"><a href="#" class="submenu-link">Lợi ích khách hàng</a></li>
+                    </ul>
+                 </li>
+                 <li class="menu-item menu-dropdown">
+                    <span class="menu-link" data-toggle="submenu">Dịch vụ<i class="bx bx-chevron-down"></i></span>
+                    <ul class="submenu">
+                       <li class="submenu-item"><a href="#" class="submenu-link">Tư vấn quản lý</a></li>
+                       <li class="submenu-item"><a href="#" class="submenu-link">Khảo sát và đánh giá năng lực</a></li>
+                       <li class="submenu-item"><a href="#" class="submenu-link">Đào tạo và phát triển</a></li>
+                    </ul>
+                 </li>
+                 <li class="menu-item"><a href="#" class="menu-link">Hệ thống</a></li>
+                 <li class="menu-item"><a href="#" class="menu-link">Tuyển dụng</a></li>
+                 <li class="menu-item"><a href="#" class="menu-link">Liên hệ</a></li>
+              </ul>
+           </nav>
+           <a href=""><i class="fa-solid fa-user"></i></a>
+        </section>
+     </header>
     <div class="bg-wrapper">
         <img src="assets/bg-dich-vu.PNG" alt="" class="bg">
     </div>
@@ -319,6 +310,7 @@
         </div>
     </div>
     <script type="module" src="js/index.js"></script>
+    <script src="js/menu.js"></script>
     <script type="module" src="js/script.js"></script>
 </body>
 </html>

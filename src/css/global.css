@@ -5,13 +5,8 @@
     font-family: Roboto, sans-serif;
 }
 /* Menu */
-.menu {
-    display: flex;
-    justify-content: space-between;
-    width: 700px;
-}
 .logo-sk {
-    max-height: 63px;
+    max-height: 55px;
 }
 .menu-2-1, .menu-3-1, .menu-3-2 {
     margin-bottom: 20px;
@@ -80,7 +75,7 @@ a:hover, .menu-content:hover {
     color: rgb(197,89,15);
 }
 /* Contact */
-.submit-contact {
+.submit-contact, .sign-in-btn {
     padding: 3px 50px 3px 50px;
     margin-top: 10px;
     background-color: #ffffff;
@@ -92,7 +87,11 @@ a:hover, .menu-content:hover {
     border-color: black; 
     transition-duration: .3s;
 }
-.submit-contact:hover {
+.sign-in-btn {
+    padding: 3px 25px 3px 25px;
+    margin-top: 0px;
+}
+.submit-contact:hover, .sign-in-btn:hover {
     background-color: #c5590f;
     color: white;
     border-color: #c5590f;
@@ -349,9 +348,6 @@ input, .problem {
     .menu-anchor-1, .menu-anchor-2, .menu-anchor-3, .menu-anchor-4, .menu-anchor-5 {
         font-size: 15px;
     }
-    .menu {
-        max-width: 650px;
-    }
 }
 @media screen and (max-width: 900px) {
     .input-wrapper {
@@ -393,10 +389,14 @@ input, .problem {
     display: none;
 }
 @media screen and (max-width: 1070px) {
-    .menu {
-        display: none;
-    }
     .menu-collapse {
         display: inline-block
     }
+}
+.nav {
+    position: absolute;
+    left: -100px;
+    top: 0px;
+    background-color: #F2F2F2;
+    height: 100%;
 }
