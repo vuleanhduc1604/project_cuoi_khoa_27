@@ -417,5 +417,7 @@ input, .problem {
     }
     .middle-content {
         margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;;
     }
 }
