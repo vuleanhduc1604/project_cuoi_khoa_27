@@ -113,7 +113,7 @@
  // Navbar
  .navbar {
     @media screen and (max-width: 1080px) {
-       position: fixed;
+       position: fixed !important;
        top: 0;
        left: -100%;
        width: 50%;
@@ -125,7 +125,7 @@
        box-shadow: var(--shadow-medium);
        background-color: var(--color-white-100);
        transition: all 0.5s ease;
-        align-items: start;
+        align-items: start !important;
        &.active {
           left: 0rem;
           opacity: 1;
@@ -134,7 +134,7 @@
     }
  }
  ul {
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
     padding-left: 0px;
  }
  // Menu
@@ -161,6 +161,7 @@
        text-transform: capitalize;
        color: var(--color-black-500);
        transition: all 0.3s ease-in-out;
+       text-decoration: none !important;
  
        > i.bx {
           font-size: 1.35rem;
@@ -234,6 +235,7 @@
        cursor: pointer;
        color: var(--color-black-500);
        transition: all 0.35s ease;
+       text-decoration: none !important;
  
        &:hover {
           outline: none;
@@ -267,7 +269,6 @@
     cursor: pointer;
     user-select: none;
     width: 1.75rem;
-    height: 1rem;
     opacity: 0;
     visibility: hidden;
     background: transparent;
@@ -324,4 +325,25 @@
        }
     }
  }
- 
+ @media screen and (max-width: 700px) {
+   .logo-sk {
+      width: 150px
+   }
+   .header {
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+   }
+ }
+ @media screen and (max-width: 600px) {
+   .fa-solid {
+      font-size: 25px !important
+   }
+ }
+@media screen and (max-width: 350px) {
+   .fa-solid {
+      font-size: 20px !important
+   }
+   .logo-sk {
+      width: 125px
+   }
+}
