@@ -38,6 +38,7 @@
     line-height: 25px;
     margin-bottom: 0px;
     margin-top: 5px;
+    width: 182px;
 }
 .img-content {
     width: 54px;
@@ -88,4 +89,8 @@
 }
 .menu-anchor-3 {
     color: #c5590f
+}
+.img-content-ad {
+    height: 45px;
+    margin: auto;
 }

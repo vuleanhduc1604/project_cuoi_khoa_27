@@ -13,3 +13,12 @@
 .bold {
     font-weight: bold;
 }
+@media screen and (max-width: 900px) {
+    .middle-content-first {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .middle-content-second, .middle-content-third, .middle-content-fourth {
+        margin-top: 20px;
+    }
+}
