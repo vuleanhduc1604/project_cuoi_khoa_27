@@ -2,7 +2,7 @@ export const getuser = async () => {
     const token = localStorage.getItem('token');
 
     if (!token) {
-        window.location.href = 'signin.html';
+        window.location.href = './dangnhap.html';
     }
 
     try {

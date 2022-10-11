@@ -1,5 +1,6 @@
 import { signup } from "./api.js";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 const form = document.querySelector(".signup");
 
 form.addEventListener("submit", async (e) => {

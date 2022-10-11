@@ -1,0 +1,80 @@
+.flex {
+    display: flex;
+}
+.space-around {
+    justify-content: space-around;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title-name-wrapper, .title-avatar-wrapper {
+    margin-top: 10px;
+}
+input {
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+}
+/* Avatar & Username CSS */
+.user-avatar {
+    width: 50px;
+    border-radius: 50px;
+}
+.user-avatar-wrapper {
+    margin-right: 10px;
+}
+span {
+    font-family: Montserrat, sans-serif;
+}
+.username-wrapper {
+    display: flex;
+    align-items: center;
+}
+/* Submit & Modal CSS */
+.submit-name, .submit-avatar, .sign-out-btn, .goback-btn {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px 30px 15px 30px;
+    background-color: gray;
+    border-style: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.text-name, .text-avatar {
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+}
+.submit-name:hover, .submit-avatar:hover {
+    opacity: 0.8;
+}
+.submit-name:active, .submit-avatar:active {
+    opacity: 0.7;
+}
+.modal-name, .modal-avatar {
+    position: fixed; 
+    display: none;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content-name, .modal-content-avatar {
+    position: relative;
+    background-color: #fefefe;
+    margin: 30px auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    animation-name: fadeTop;
+    animation-duration: 0.2s;
+}
+@keyframes fadeTop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}

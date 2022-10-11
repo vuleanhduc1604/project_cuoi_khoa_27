@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/signin.css">
     <title>Sign up pls</title>
     <style>
         .username-wrapper, .password-wrapper, .firstname-wrapper, .lastname-wrapper {
@@ -18,38 +21,33 @@
 </head>
 <body>
     <div class="main">
-        <form action="" class="signup">
+        <form action="" class="signup d-flex">
             <div class="form-header">
-                <div class="form-heading">
-                    <h1 class="header">Sign up pls</h1>
-                </div>
+                <h1 class="header">Sign up pls</h1>
             </div>
             <div class="form-body">
                 <div class="username-wrapper">
-                    <label for="username">Username</label>
-                    <input type="text" name="username" class="username"/>
+                    <input type="text" name="username" class="username" placeholder="Username"/>
                 </div>
                 <div class="password-wrapper">
-                    <label for="username">Password</label>
-                    <input type="password" name="password" class="password"/>
+                    <input type="password" name="password" class="password" placeholder="Password"/>
                 </div>
                 <div class="firstname-wrapper">
-                    <label for="firstname">First Name</label>
-                    <input type="text" name="firstname" class="first-name">
+                    <input type="text" name="firstname" class="first-name" placeholder="First Name">
                 </div>
                 <div class="lastname-wrapper">
-                    <label for="lastname">Last Name</label>
-                    <input type="text" name="lastname" class="last-name">
+                    <input type="text" name="lastname" class="last-name" placeholder="Last Name">
                 </div>
             </div>
             <div class="form-footer">
                 <button class="btn-submit">Sign me up</button>
             </div>
+            <div class="footer">
+                <p class="footer-desc text-center"><a href="dangnhap.html">If u already have an acc then sign in pls</a></p>
+            </div>
         </form>
     </div>
-    <div class="footer">
-        <a href="dangnhap.html">If u already have an acc then sign in pls</a>
-    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="js/signup.js" type="module"></script>
 </body>
