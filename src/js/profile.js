@@ -9,7 +9,7 @@ const loadProfile = async () => {
         userAvatarWrapper.classList.add('user-avatar-wrapper');
         const avatar = document.createElement('img');
         avatar.classList.add('user-avatar');
-        avatar.src = `https://todo-api-with-auth.herokuapp.com${src}`;
+        avatar.src = `./assets/profile-picture.jpg`;
         const usernameWrapper = document.createElement('div');
         usernameWrapper.classList.add('username-wrapper');
         const username = document.createElement('span');
