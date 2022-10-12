@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống trắc nghiệm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon-32x32.png" type="image/gif" sizes="32x32">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tracnghiem.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="d-flex flex-column justify-content-between">
+    <header>
+        <div class="header d-flex justify-content-between align-items-center">
+            <div class="left-header d-flex align-items-center">
+                <div class="logo-wrapper">
+                    <img src="assets/sk-logo.png" alt="" class="logo">
+                </div>
+                <div class="left-header-desc">
+                    <p class="header-desc">Focus Management Assessment</p>
+                </div>
+            </div>
+            <div class="right-header d-flex">
+                <div class="clock-wrapper"><i class="fa-solid fa-clock"></i></div>
+                <div class="countdown-wrapper"></div>
+            </div>
+        </div>
+        <div class="sub-header d-flex justify-content-between">
+            <div class="progress-bar-wrapper d-flex align-items-center">
+                <p class="progress-desc">Progress</p>
+                <div class="progress-bar"></div>
+                <p class="progress-number">20%</p>
+            </div>
+            <div class="prev-next-wrapper">
+                <button class="forward-button">Forward</button>
+                <i class="fa-solid fa-chevron-left"></i>
+                <button class="button-1">1</button>
+                <button class="button-2">2</button>
+                <button class="button-3">3</button>
+                <button class="button-4">4</button>
+                <button class="button-5">5</button>
+                <i class="fa-solid fa-chevron-right"></i>
+                <button class="next-button">Next</button>
+                <button class="all-button">All</button>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="main-header-wrapper">
+            <p class="main-header text-center">Please review the question below and choose one of the rating buttons. Questions followed by an asterisk <span class="bold-orange">(*)</span> are mandatory.</p>
+        </div>
+        <div class="main-body">
+            <div class="main-body-header-wrapper"><p class="main-body-header">CHOOSE THE BEST OPTION</p></div>
+            <div class="question-1-wrapper d-flex flex-column question-wrapper">
+                <p class="question-1"><span class="bold-black"> Question 1</span> <span class="bold-red">*</span>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+                <div class="answer-wrapper d-flex align-items-center">
+                    <p class="agree">Agree</p>
+                    <div class="options-wrapper d-flex align-items-end">
+                        <div class="circle-1-true"></div>
+                        <div class="circle-2-true"></div>
+                        <div class="circle-3-true"></div>
+                        <div class="circle-4-true"></div>
+                        <div class="circle-5"></div>
+                        <div class="circle-4-false"></div>
+                        <div class="circle-3-false"></div>
+                        <div class="circle-2-false"></div>
+                        <div class="circle-1-false"></div>
+                    </div>
+                    <p class="disagree">Disagree</p>
+                </div>
+            </div>
+            <div class="question-1-wrapper d-flex flex-column question-wrapper">
+                <p class="question-1"><span class="bold-black"> Question 2</span> <span class="bold-red">*</span>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+                <div class="answer-wrapper d-flex align-items-center">
+                    <p class="agree">Agree</p>
+                    <div class="options-wrapper d-flex align-items-end">
+                        <div class="circle-1-true"></div>
+                        <div class="circle-2-true"></div>
+                        <div class="circle-3-true"></div>
+                        <div class="circle-4-true"></div>
+                        <div class="circle-5"></div>
+                        <div class="circle-4-false"></div>
+                        <div class="circle-3-false"></div>
+                        <div class="circle-2-false"></div>
+                        <div class="circle-1-false"></div>
+                    </div>
+                    <p class="disagree">Disagree</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-text-wrapper d-flex justify-content-between">
+            <p class="footer-text"><span class="bold-black">Always</span> = I always demonstrate this behavior</p>
+            <p class="footer-text"><span class="bold-black">Usually</span> = I usually demonstrate this behavior</p>
+            <p class="footer-text"><span class="bold-black">Sometimes</span> = I sometimes demonstrate this behavior</p>
+            <p class="footer-text"><span class="bold-black">Never</span> = I never demonstrate this behavior</p>
+            <p class="footer-text"><span class="bold-black">N/A</span> = Question is not applicable</p>
+        </div>
+        <div class="footer-sk">
+            <p class="privacy">Privacy Policy</p>
+            <p class="copyright">Copyright © 2022 SKConsulting. All rights reserved.</p>
+        </div>
+    </div>
+    <script src="js/tracnghiem.js"></script>
+</body>
+</html>
