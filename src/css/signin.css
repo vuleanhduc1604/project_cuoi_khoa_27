@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-.main {
+html, body, .main {
     width: 100%;
     height: 100%;
-    margin-top: 100px;
 }
 .signup {
     flex-direction: column;
+    margin: auto;
 }
 .header {
     font-family: "Montserrat", sans-serif;
