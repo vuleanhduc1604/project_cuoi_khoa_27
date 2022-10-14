@@ -28,14 +28,16 @@
                 </div>
             </div>
             <div class="right-header d-flex">
-                <div class="clock-wrapper"><i class="fa-solid fa-clock"></i></div>
+                <div class="clock-wrapper d-flex align-items-center"><i class="fa-solid fa-clock"></i><div id="ten-countdown"></div></div>
                 <div class="countdown-wrapper"></div>
             </div>
         </div>
         <div class="sub-header d-flex justify-content-between">
             <div class="progress-bar-wrapper d-flex align-items-center">
                 <p class="progress-desc">Progress</p>
-                <div class="progress-bar"></div>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill"></div>
+                </div>
                 <p class="progress-number">20%</p>
             </div>
             <div class="prev-next-wrapper">
@@ -100,7 +102,7 @@
         </div>
     </div>
     <div class="footer">
-        <div class="footer-text-wrapper d-flex justify-content-between">
+        <div class="footer-text-wrapper justify-content-between">
             <p class="footer-text"><span class="bold-black">Always</span> = I always demonstrate this behavior</p>
             <p class="footer-text"><span class="bold-black">Usually</span> = I usually demonstrate this behavior</p>
             <p class="footer-text"><span class="bold-black">Sometimes</span> = I sometimes demonstrate this behavior</p>
@@ -113,5 +115,6 @@
         </div>
     </div>
     <script type="module" src="js/tracnghiem.js"></script>
+    <script src="js/countdown.js"></script>
 </body>
 </html>
