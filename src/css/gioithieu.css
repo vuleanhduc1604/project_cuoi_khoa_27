@@ -72,3 +72,29 @@
         width: 100%;
     }
 }
+.bg-img-test {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 10vw;
+    top: 300px;
+}
+.bg-text {
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 15px;
+    padding-left: 10vw;
+    padding-top: 40px;
+}
+.bg-text-wrapper {
+    background-image: url("../assets/L-orange.webp")
+}
+.bg-test {
+    background-image: url("../assets/bg-stripe.webp");
+    height: 147px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
