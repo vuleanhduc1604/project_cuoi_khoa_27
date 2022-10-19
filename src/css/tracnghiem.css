@@ -53,6 +53,9 @@
 .btn-active {
     border-color: #c5590f;
 }
+.all-button {
+    margin-right: 20px;
+}
 .button-1, .button-2, .button-3, .button-4, .button-5 {
     font-size: 20px;
     padding: 13px 26px 13px 26px;
@@ -278,12 +281,6 @@ html, body {
 }
 .question-1 {
     text-align: justify;
-}
-@media screen and (max-width: 747px) {
-    .forward-button, .fa-solid, .button-1, .button-2, .button-3, .button-4, .button-5, .next-button, .fa-chevron-right {
-        display: none;
-        font-size: 0px;
-    }
 }
 @media screen and (max-width: 600px) {
     .footer-text-wrapper {
