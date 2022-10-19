@@ -13,7 +13,10 @@ export default defineConfig({
                 index: resolve(__dirname, "src/index.html"),
                 gioithieu: resolve(__dirname, "src/gioithieu.html"),
                 loiichkhachhang: resolve(__dirname, "src/loiichkhachhang.html"),
-                dichvu: resolve(__dirname, "src/dichvu.html")
+                dichvu: resolve(__dirname, "src/dichvu.html"),
+                agile: resolve(__dirname, "src/agile.html"),
+                kpi: resolve(__dirname, "src/bsc-kpi-okr.html"),
+                chatluongdichvu: resolve(__dirname, "src/chatluongdichvu.html")
             },
         },
     },

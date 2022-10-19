@@ -291,6 +291,7 @@ input, .problem {
 }
 .service-desc {
     font-size: 15px;
+    color: #000000 !important;
 }
 .service-1, .service-2, .service-3 {
     width: 228px;
@@ -420,4 +421,7 @@ input, .problem {
         padding-left: 20px;
         padding-right: 20px;;
     }
+}
+a {
+    text-decoration: none !important;
 }
