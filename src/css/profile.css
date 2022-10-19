@@ -78,3 +78,16 @@ span {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1}
 }
+.logo {
+    width: 175px;
+}
+.logo-wrapper {
+    margin-right: 10px;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #c5590f;
+    padding-right: 10px;
+}
+.header-desc {
+    margin-bottom: 0px;
+}

@@ -1,4 +1,5 @@
 import { getuser, changeName, changeAvatar } from "./api.js";
+import "bootstrap/dist/css/bootstrap.min.css";
 const loadProfile = async () => {
     const loadprofileCard = (firstname, lastname, src) => {
         let profileWrapper = document.querySelector('#user-info-wrapper');

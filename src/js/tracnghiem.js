@@ -19,15 +19,7 @@ console.log(question_3_completion)
 console.log(question_4_completion)
 var question_point = question_1_point + question_2_point + question_3_point + question_4_point;
 if (question_completion = 1) {
-    document.querySelector('.progress-bar-fill').style.width = "25px"
-} else if (question_completion = 2) {
-    document.querySelector('.progress-bar-fill').style.width = "50px"
-} else if (question_completion = 3) {
-    document.querySelector('.progress-bar-fill').style.width = "75px"
-} else if (question_completion = 4) {
-    document.querySelector('.progress-bar-fill').style.width = "100px"
-} else {
-    document.querySelector('.progress-bar-fill').style.width = "0px"
+    document.querySelector('.progress-bar-fill').style.width = "50%";
 }
 const option_11 = document.querySelector('.num-11');
 const option_12 = document.querySelector('.num-12');
@@ -386,7 +378,7 @@ option_32.addEventListener("click", function() {
     }
 });
 option_33.addEventListener("click", function() { 
-    question_3_point = 5;
+    question_3_point = 3;
     question_3_completion = 1;
     if (question_3_point != question_3_point_recheck) {
         question_3_point_recheck = question_3_point;
@@ -402,7 +394,7 @@ option_33.addEventListener("click", function() {
     }
 });
 option_34.addEventListener("click", function() { 
-    question_3_point = 5;
+    question_3_point = 2;
     question_3_completion = 1;
     if (question_3_point != question_3_point_recheck) {
         question_3_point_recheck = question_3_point;
@@ -418,7 +410,7 @@ option_34.addEventListener("click", function() {
     }
 });
 option_35.addEventListener("click", function() { 
-    question_3_point = 5;
+    question_3_point = 1;
     question_3_completion = 1;
     if (question_3_point != question_3_point_recheck) {
         question_3_point_recheck = question_3_point;
@@ -434,7 +426,7 @@ option_35.addEventListener("click", function() {
     }
 });
 option_36.addEventListener("click", function() { 
-    question_3_point = 5;
+    question_3_point = -1;
     question_3_completion = 1;
     if (question_3_point != question_3_point_recheck) {
         question_3_point_recheck = question_3_point;
@@ -450,7 +442,7 @@ option_36.addEventListener("click", function() {
     }
 });
 option_37.addEventListener("click", function() { 
-    question_3_point = 5;
+    question_3_point = -2;
     question_3_completion = 1;
     if (question_3_point != question_3_point_recheck) {
         question_3_point_recheck = question_3_point;
@@ -466,7 +458,7 @@ option_37.addEventListener("click", function() {
     }
 });
 option_38.addEventListener("click", function() { 
-    question_3_point = 5;
+    question_3_point = -3;
     question_3_completion = 1;
     if (question_3_point != question_3_point_recheck) {
         question_3_point_recheck = question_3_point;
@@ -482,7 +474,7 @@ option_38.addEventListener("click", function() {
     }
 });
 option_39.addEventListener("click", function() { 
-    question_3_point = 5;
+    question_3_point = -4;
     question_3_completion = 1;
     if (question_3_point != question_3_point_recheck) {
         question_3_point_recheck = question_3_point;
@@ -530,7 +522,7 @@ option_42.addEventListener("click", function() {
     }
 });
 option_43.addEventListener("click", function() { 
-    question_4_point = 5;
+    question_4_point = 3;
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
@@ -546,7 +538,7 @@ option_43.addEventListener("click", function() {
     }
 });
 option_44.addEventListener("click", function() { 
-    question_4_point = 5;
+    question_4_point = 2;
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
@@ -562,7 +554,7 @@ option_44.addEventListener("click", function() {
     }
 });
 option_45.addEventListener("click", function() { 
-    question_4_point = 5;
+    question_4_point = 1;
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
@@ -578,7 +570,7 @@ option_45.addEventListener("click", function() {
     }
 });
 option_46.addEventListener("click", function() { 
-    question_4_point = 5;
+    question_4_point = -1;
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
@@ -594,7 +586,7 @@ option_46.addEventListener("click", function() {
     }
 });
 option_47.addEventListener("click", function() { 
-    question_4_point = 5;
+    question_4_point = -2;
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
@@ -610,7 +602,7 @@ option_47.addEventListener("click", function() {
     }
 });
 option_48.addEventListener("click", function() { 
-    question_4_point = 5;
+    question_4_point = -3;
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
@@ -626,7 +618,7 @@ option_48.addEventListener("click", function() {
     }
 });
 option_49.addEventListener("click", function() { 
-    question_4_point = 5;
+    question_4_point = -4;
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
