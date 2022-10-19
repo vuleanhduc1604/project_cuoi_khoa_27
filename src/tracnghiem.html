@@ -17,6 +17,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="d-flex flex-column justify-content-between">
+    <div class="overlay d-flex align-items-center">
+        <div class="sub-overlay d-flex justify-content-between">
+            <button class="button-1">1</button>
+            <button class="button-2">2</button>
+            <button class="button-3">3</button>
+            <button class="button-4">4</button>
+        </div>
+    </div>
     <header>
         <div class="header d-flex justify-content-between align-items-center">
             <div class="left-header d-flex align-items-center">
@@ -28,28 +36,9 @@
                 </div>
             </div>
             <div class="right-header d-flex">
+                <button class="all-button">All</button>
                 <div class="clock-wrapper d-flex align-items-center"><i class="fa-solid fa-clock"></i><div id="ten-countdown"></div></div>
                 <div class="countdown-wrapper"></div>
-            </div>
-        </div>
-        <div class="sub-header d-flex justify-content-between">
-            <div class="progress-bar-wrapper d-flex align-items-center">
-                <p class="progress-desc">Progress</p>
-                <div class="progress-bar">
-                    <div class="progress-bar-fill"></div>
-                </div>
-                <p class="progress-number">0%</p>
-            </div>
-            <div class="prev-next-wrapper">
-                <button class="forward-button">Forward</button>
-                <i class="fa-solid fa-chevron-left"></i>
-                <button class="button-1">1</button>
-                <button class="button-2">2</button>
-                <button class="button-3">3</button>
-                <button class="button-4">4</button>
-                <i class="fa-solid fa-chevron-right"></i>
-                <button class="next-button">Next</button>
-                <button class="all-button">All</button>
             </div>
         </div>
     </header>
