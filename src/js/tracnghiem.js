@@ -10,8 +10,13 @@ var question_4_point_recheck = 0;
 var question_1_completion = 0;
 var question_2_completion = 0;
 var question_3_completion = 0;
-var question_4_completion = 4;
+var question_4_completion = 0;
 var question_completion = question_1_completion + question_2_completion + question_3_completion + question_4_completion;
+console.log(question_completion);
+console.log(question_1_completion)
+console.log(question_2_completion)
+console.log(question_3_completion)
+console.log(question_4_completion)
 var question_point = question_1_point + question_2_point + question_3_point + question_4_point;
 if (question_completion = 1) {
     document.querySelector('.progress-bar-fill').style.width = "25px"
@@ -21,6 +26,8 @@ if (question_completion = 1) {
     document.querySelector('.progress-bar-fill').style.width = "75px"
 } else if (question_completion = 4) {
     document.querySelector('.progress-bar-fill').style.width = "100px"
+} else {
+    document.querySelector('.progress-bar-fill').style.width = "0px"
 }
 const option_11 = document.querySelector('.num-11');
 const option_12 = document.querySelector('.num-12');

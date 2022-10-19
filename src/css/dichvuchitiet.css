@@ -1,7 +1,7 @@
 .header-img {
     width: 21px;
     position: absolute;
-    top: 282px;
+    top: 272px;
 }
 .header-word, .desc-header {
     font-family: "Roboto Condensed", sans-serif;
@@ -9,13 +9,17 @@
     font-weight: bold;
     color: #c5590f;
     margin-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .desc-header {
     font-size: 20px;
+    margin-bottom: 21px;
 }
 .desc-header-wrapper {
     border-bottom-width: 1px;
     border-bottom-style: none;
     border-bottom-color: #000000;
+}
+.desc-content-list {
+    margin-bottom: 10px;
 }

@@ -147,7 +147,7 @@
     display: flex;
     flex-direction: column;
 }
-.question-1-wrapper, .question-2-wrapper {
+.question-1-wrapper, .question-2-wrapper, .question-3-wrapper, .question-4-wrapper {
     width: 1000px;
 }
 .question-wrapper {
@@ -192,7 +192,7 @@ html, body {
     }
 }
 @media screen and (max-width: 1000px) {
-    .question-1-wrapper, .question-2-wrapper {
+    .question-1-wrapper, .question-2-wrapper, .question-3-wrapper, .question-4-wrapper {
         width: 100%;
     }
 }
@@ -263,7 +263,7 @@ html, body {
     }
 }
 @media screen and (max-width: 428px) {
-    .question-1-wrapper, .question-2-wrapper {
+    .question-1-wrapper, .question-2-wrapper, .question-3-wrapper, .question-4-wrapper {
         padding-left: 10px;
         padding-right: 10px;
     }
