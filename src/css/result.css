@@ -1,0 +1,15 @@
+.table-content {
+    text-align: center;
+    margin-top: 1rem;
+}
+.header-content-wrapper {
+    color: white;
+    background-color: #c5590f;
+    padding: 10px 30px 10px 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.header-content {
+    margin-bottom: 0px;
+}

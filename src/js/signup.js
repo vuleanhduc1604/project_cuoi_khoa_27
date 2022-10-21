@@ -12,10 +12,11 @@ form.addEventListener("submit", async (e) => {
     const lastname = form.elements.lastname.value;
     try {
         const { data, headers } = await signup({ username, password, firstname, lastname });
-
+        
         alert("You're signed up. Now log in pls");
-
-        window.location.href = "../dangnhap.html";
+        setTimeout(function() {
+            window.location.href = "../dangnhap.html";
+        }, 3000)
     } catch ({ response }) {
         alert(response.data.error);
     }
