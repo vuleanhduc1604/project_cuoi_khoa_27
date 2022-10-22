@@ -29,7 +29,8 @@ export default defineConfig({
                 quantrivatrainghiemkhachhang: resolve(__dirname, "src/quantrivatrainghiemkhachhang.html"),
                 scrumkanban: resolve(__dirname, "src/scrumkanban.html"),
                 tuyendung: resolve(__dirname, "src/tuyendung.html"),
-                hethong: resolve(__dirname, "src/tracnghiem.html")
+                hethong: resolve(__dirname, "src/tracnghiem.html"),
+                result: resolve(__dirname, "src/result.html")
             },
         },
     },

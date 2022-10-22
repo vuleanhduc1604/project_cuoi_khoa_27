@@ -335,3 +335,25 @@ html, body {
     width: 80%;
     margin: auto;
 }
+.submit-btn {
+    padding: 3px 50px 3px 50px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #c5590f;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black; 
+    transition-duration: .3s;
+}
+.submit-btn:hover {
+    background-color: #c5590f;
+    color: white;
+    border-color: #c5590f;
+    transition-duration: .3s;
+}
+.submit-btn-wrapper {
+    margin: auto;
+    margin-bottom: 10px;
+}

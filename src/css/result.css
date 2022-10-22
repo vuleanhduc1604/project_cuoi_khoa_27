@@ -13,3 +13,35 @@
 .header-content {
     margin-bottom: 0px;
 }
+.main-header {
+    font-size: 30px !important;
+    font-style: normal !important;
+    letter-spacing: 1rem;
+
+}
+@media screen and (max-width: 958px) {
+    .left-desc, .right-desc {
+        display: none;
+    }
+    .left-desc-wrapper, .second-left-content {
+        margin-right: 0px !important;
+    }
+}
+@media screen and (max-width: 540px) {
+    .header-desc {
+        display: none;
+    }
+}
+@media screen and (max-width: 876px) {
+    .main-content {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 503px) {
+    .table-content, .header-content {
+        font-size: 13px;
+    }
+    .main-header {
+        font-size: 20px !important;
+    }
+}
