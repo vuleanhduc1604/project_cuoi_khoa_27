@@ -42,7 +42,7 @@ function drawCircle(container,id,progress,parent){
       duration: timer,
       easing:'linear',
       step: function() {
-        object.text(Math.floor(this.countNum));
+        object.text(Math.round(this.countNum * 10) / 10);
       },
       complete: function() {
         object.text(this.countNum);
@@ -50,21 +50,27 @@ function drawCircle(container,id,progress,parent){
     });
   }
   
-  /*function countUp(animtime,parent,progress){
-    var textContainer = $(parent);
-    var i = 0;
-    var intervalTime = Math.abs(animtime / progress);
-    var timerID = setInterval(function () {
-      i++;
-      textContainer.text(i);
-      if (i === progress) clearInterval(timerID);
-    }, intervalTime);           
-  }*/
   
   $(window).on('load',function(){
     drawCircle('#chart-3',1,80,'#circle-1');
     
-    //countUp(1300,'#countUp1',150);
-    
-    counter(2000,'#counter1',999);
+    counter(1000,'#counter1',999);
+    counter(500,'.avg-commitment-point',4.0);
+    counter(500,'.avg-leadership-point',4.8);
+    counter(500,'.avg-enablement-point',2.8);
+    counter(500,'.avg-alignment-point',3.8);
+    counter(500,'.avg-development-point',4.2);
+    counter(500,'.avg-overall-point',3.8);
+    counter(500,'.benchmark-commitment-point',4.2);
+    counter(500,'.benchmark-leadership-point',3.9);
+    counter(500,'.benchmark-enablement-point',4.5);
+    counter(500,'.benchmark-alignment-point',4,8);
+    counter(500,'.benchmark-development-point',3.3);
+    counter(500,'.benchmark-overall-point',4.3);
+    counter(500,'.GAP-commitment-point',0.2);
+    counter(500,'.GAP-leadership-point',0.9);
+    counter(500,'.GAP-enablement-point',1.3);
+    counter(500,'.GAP-alignment-point',1.0);
+    counter(500,'.GAP-development-point',0.9);
+    counter(500,'.GAP-overall-point',0.5);
   });

@@ -87,21 +87,60 @@ body {
 .chart-svg {
   position: relative;
 }
-
+.table-content {
+  border-bottom-style: solid;
+  border-bottom-color: #D9D9D9;
+  border-bottom-width: 1px;
+}
+.first-left-content, .second-left-content {
+  margin-right: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#avg-header-wrapper {
+  border-top-right-radius: 0px;
+}
+#benchmark-header-wrapper {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+#GAP-header-wrapper {
+  border-top-left-radius: 0px;
+}
 .circle-percentage {
   position: absolute;
   color: #c5590f;
   font-size: 48px;
-  left: 40%;
-  top: 17%;
+  left: 103%;
+  top: 20%;
+  text-align: center;
+  width: 53px;
 }
-.circle-percentage-icon {
+.percentage {
   position: absolute;
-  color: white;
-  font-size: 30px;
-  left: 54.5%;
-  top: 34%;
-  font-weight: 100;
+  color: #595959;
+  font-size: 15px;
+  width: 200px;
+  left: 3%;
+  top: 50%;
+}
+.up-scale {
+  position: absolute;
+  color: #c5590f;
+  font-size: 15px;
+  width: 100px;
+  left: 70%;
+  top: 60%;
+}
+.fa-arrow-up {
+  color: green !important;
+}
+.since {
+  position: absolute;
+  color: #595959;
+  font-size: 13px;
+  width: 100px;
+  left: 73%;
+  top: 70%;
 }
 @media screen and (max-width: 480px) {
   .circle-percentage {
@@ -127,12 +166,26 @@ body {
 .countUp {
   font-size: 50px;
 }
-
-.counter {
-  color: #66edd6;
-  display: table-cell;
-  margin:1.5%;
-  font-size:50px;
-  vertical-align: middle;
-  font-family: Lato;
+.left-desc, .right-desc {
+  writing-mode: vertical-rl;
+  color: white;
+  height: 250px;
+  font-size: 13px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+.left-desc-wrapper, .right-desc-wrapper {
+  background-color: #c5590f;
+  height: 250px;
+}
+.left-desc-wrapper {
+  margin-right: 55px;
+}
+.GAP-overall-point, .benchmark-overall-point, .avg-overall-point, #overall {
+  font-weight: bold;
+}
+.main-content {
+  margin: auto;
 }
