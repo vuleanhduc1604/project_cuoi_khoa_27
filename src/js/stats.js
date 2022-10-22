@@ -11,7 +11,7 @@ function drawCircle(container,id,progress,parent){
       'id':myID
     });
     
-    var animTime = 1300/*progress / 100*/
+    var animTime = 1300
     
     prog.animate({
       'stroke-dashoffset':toOffset
