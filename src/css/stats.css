@@ -31,11 +31,6 @@ body, html {
   transform: rotate(90deg);
 }
 
-body {
-  background-color: #24303a;
-  color: white;
-  text-align: center;
-}
 
 .charts-container {
   padding: 20px;
