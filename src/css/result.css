@@ -45,3 +45,166 @@
         font-size: 20px !important;
     }
 }
+
+body, html {
+    font-family: Lato;
+  }
+  
+  .underlay {
+    stroke-width: 0.9;
+    fill: transparent;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: white;
+  }
+  
+  #circle-graph-1 {
+    stroke: #c5590f;
+    stroke-width: 5;
+    fill: transparent;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  .chart-circle {
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  
+  
+  .charts-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 1024px;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .chart {
+    color: white;
+    text-align: left;
+    position: relative;
+    height: auto;
+    float: left;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 15px 20px 65px 20px;
+  }
+  .chart.circle {
+    padding: 15px 20px 40px 20px;
+  }
+  
+  .title {
+    font-size: 19px;
+    margin-bottom: 12px;
+  }
+  
+  .chart-circle {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .chart-svg {
+    position: relative;
+  }
+  .table-content {
+    border-bottom-style: solid;
+    border-bottom-color: #D9D9D9;
+    border-bottom-width: 1px;
+  }
+  .first-left-content, .second-left-content {
+    margin-right: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  #avg-header-wrapper {
+    border-top-right-radius: 0px;
+  }
+  #benchmark-header-wrapper {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+  #GAP-header-wrapper {
+    border-top-left-radius: 0px;
+  }
+  .circle-percentage {
+    position: absolute;
+    color: #c5590f;
+    font-size: 48px;
+    left: 36%;
+    top: 20%;
+    text-align: center;
+    width: 53px;
+  }
+  .percentage {
+    position: absolute;
+    color: #595959;
+    font-size: 15px;
+    width: 200px;
+    left: 0%;
+    top: 50%;
+  }
+  .up-scale {
+    position: absolute;
+    color: #c5590f;
+    font-size: 15px;
+    width: 100px;
+    left: 25%;
+    top: 60%;
+  }
+  .fa-arrow-up {
+    color: green !important;
+  }
+  .since {
+    position: absolute;
+    color: #595959;
+    font-size: 13px;
+    width: 100px;
+    left: 25%;
+    top: 70%;
+  }
+  
+  .align-center {
+    text-align: center;
+  }
+  
+  /**
+   * For IE 6/7 only
+   * Include this rule to trigger hasLayout and contain floats.
+   */
+  .cf {
+    *zoom: 1;
+  }
+  
+  .countUp {
+    font-size: 50px;
+  }
+  .left-desc, .right-desc {
+    writing-mode: vertical-rl;
+    color: white;
+    height: 250px;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+  }
+  .left-desc-wrapper, .right-desc-wrapper {
+    background-color: #c5590f;
+    height: 250px;
+  }
+  .left-desc-wrapper {
+    margin-right: 55px;
+  }
+  .GAP-overall-point, .benchmark-overall-point, .avg-overall-point, #overall {
+    font-weight: bold;
+  }
+  .main-content {
+    margin: auto;
+  }
