@@ -425,3 +425,11 @@ input, .problem {
 a {
     text-decoration: none !important;
 }
+.middle-content-wrapper, .middle-content-fourth {
+    margin-bottom: 1rem;
+    line-height: 30px;
+}
+.middle-content-first-content {
+    line-height: 30px;
+    margin-bottom: 0px;
+}

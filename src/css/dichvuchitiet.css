@@ -11,11 +11,13 @@
     margin-left: 10px;
     margin-bottom: 20px;
 }
-
+.desc-list {
+    line-height: 30px;
+}
 .desc-header {
     font-size: 20px;
-    margin-bottom: 21px;
-    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 .desc-header-wrapper {
     border-bottom-width: 1px;

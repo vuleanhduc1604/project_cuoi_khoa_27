@@ -72,7 +72,7 @@ const option_47 = document.querySelector('.num-47');
 const option_48 = document.querySelector('.num-48');
 const option_49 = document.querySelector('.num-49');
 option_11.addEventListener("click", function() { 
-    question_1_point = 5;
+    question_1_point = 9;
     question_1_completion = 1;  
     btn1.classList.add("btn-active")
     if (question_1_point != question_1_point_recheck) {
@@ -89,7 +89,7 @@ option_11.addEventListener("click", function() {
     }
 });
 option_12.addEventListener("click", function() { 
-    question_1_point = 4;
+    question_1_point = 8;
     question_1_completion = 1;
     btn1.classList.add("btn-active")
     if (question_1_point != question_1_point_recheck) {
@@ -106,7 +106,7 @@ option_12.addEventListener("click", function() {
     }
 });
 option_13.addEventListener("click", function() { 
-    question_1_point = 3;
+    question_1_point = 7;
     question_1_completion = 1;
     btn1.classList.add("btn-active")
     if (question_1_point != question_1_point_recheck) {
@@ -123,7 +123,7 @@ option_13.addEventListener("click", function() {
     }
 });
 option_14.addEventListener("click", function() { 
-    question_1_point = 2;
+    question_1_point = 6;
     question_1_completion = 1;
     btn1.classList.add("btn-active")
     if (question_1_point != question_1_point_recheck) {
@@ -140,7 +140,7 @@ option_14.addEventListener("click", function() {
     }
 });
 option_15.addEventListener("click", function() { 
-    question_1_point = 1;
+    question_1_point = 5;
     question_1_completion = 1;
     btn1.classList.add("btn-active")
     if (question_1_point != question_1_point_recheck) {
@@ -157,7 +157,7 @@ option_15.addEventListener("click", function() {
     }
 });
 option_16.addEventListener("click", function() { 
-    question_1_point = 0;
+    question_1_point = 4;
     question_1_completion = 1;
     btn1.classList.add("btn-active")
     if (question_1_point != question_1_point_recheck) {
@@ -174,7 +174,7 @@ option_16.addEventListener("click", function() {
     }
 });
 option_17.addEventListener("click", function() { 
-    question_1_point = -1;
+    question_1_point = 3;
     btn1.classList.add("btn-active")
     question_1_completion = 1;
     if (question_1_point != question_1_point_recheck) {
@@ -191,7 +191,7 @@ option_17.addEventListener("click", function() {
     }
 });
 option_18.addEventListener("click", function() { 
-    question_1_point = -2;
+    question_1_point = 2;
     question_1_completion = 1;
     btn1.classList.add("btn-active")
     if (question_1_point != question_1_point_recheck) {
@@ -208,7 +208,7 @@ option_18.addEventListener("click", function() {
     }
 });
 option_19.addEventListener("click", function() { 
-    question_1_point = -3;
+    question_1_point = 1;
     question_1_completion = 1;
     btn1.classList.add("btn-active")
     if (question_1_point != question_1_point_recheck) {
@@ -225,7 +225,7 @@ option_19.addEventListener("click", function() {
     }
 });
 option_21.addEventListener("click", function() { 
-    question_2_point = 5;
+    question_2_point = 9;
     question_2_completion = 1;
     btn2.classList.add("btn-active")
     if (question_2_point != question_2_point_recheck) {
@@ -242,7 +242,7 @@ option_21.addEventListener("click", function() {
     }
 });
 option_22.addEventListener("click", function() { 
-    question_2_point = 4;
+    question_2_point = 8;
     question_2_completion = 1;
     btn2.classList.add("btn-active")
     if (question_2_point != question_2_point_recheck) {
@@ -259,7 +259,7 @@ option_22.addEventListener("click", function() {
     }
 });
 option_23.addEventListener("click", function() { 
-    question_2_point = 3;
+    question_2_point = 7;
     question_2_completion = 1;
     btn2.classList.add("btn-active")
     if (question_2_point != question_2_point_recheck) {
@@ -276,7 +276,7 @@ option_23.addEventListener("click", function() {
     }
 });
 option_24.addEventListener("click", function() { 
-    question_2_point = 2;
+    question_2_point = 6;
     btn2.classList.add("btn-active")
     question_2_completion = 1;
     if (question_2_point != question_2_point_recheck) {
@@ -293,7 +293,7 @@ option_24.addEventListener("click", function() {
     }
 });
 option_25.addEventListener("click", function() { 
-    question_2_point = 1;
+    question_2_point = 5;
     question_2_completion = 1;
     btn2.classList.add("btn-active")
     if (question_2_point != question_2_point_recheck) {
@@ -310,7 +310,7 @@ option_25.addEventListener("click", function() {
     }
 });
 option_26.addEventListener("click", function() { 
-    question_2_point = -1;
+    question_2_point = 4;
     question_2_completion = 1;
     btn2.classList.add("btn-active")
     if (question_2_point != question_2_point_recheck) {
@@ -327,7 +327,7 @@ option_26.addEventListener("click", function() {
     }
 });
 option_27.addEventListener("click", function() { 
-    question_2_point = -2;
+    question_2_point = 3;
     question_2_completion = 1;
     btn2.classList.add("btn-active")
     if (question_2_point != question_2_point_recheck) {
@@ -344,7 +344,7 @@ option_27.addEventListener("click", function() {
     }
 });
 option_28.addEventListener("click", function() { 
-    question_2_point = -3;
+    question_2_point = 2;
     question_2_completion = 1;
     btn2.classList.add("btn-active")
     if (question_2_point != question_2_point_recheck) {
@@ -361,7 +361,7 @@ option_28.addEventListener("click", function() {
     }
 });
 option_29.addEventListener("click", function() { 
-    question_2_point = -4;
+    question_2_point = 1;
     question_2_completion = 1;
     btn2.classList.add("btn-active")
     if (question_2_point != question_2_point_recheck) {
@@ -378,7 +378,7 @@ option_29.addEventListener("click", function() {
     }
 });
 option_31.addEventListener("click", function() { 
-    question_3_point = 5;
+    question_3_point = 9;
     btn3.classList.add("btn-active")
     question_3_completion = 1;
     if (question_3_point != question_3_point_recheck) {
@@ -395,7 +395,7 @@ option_31.addEventListener("click", function() {
     }
 });
 option_32.addEventListener("click", function() { 
-    question_3_point = 4;
+    question_3_point = 8;
     question_3_completion = 1;
     btn3.classList.add("btn-active")
     if (question_3_point != question_3_point_recheck) {
@@ -412,7 +412,7 @@ option_32.addEventListener("click", function() {
     }
 });
 option_33.addEventListener("click", function() { 
-    question_3_point = 3;
+    question_3_point = 7;
     question_3_completion = 1;
     btn3.classList.add("btn-active")
     if (question_3_point != question_3_point_recheck) {
@@ -429,7 +429,7 @@ option_33.addEventListener("click", function() {
     }
 });
 option_34.addEventListener("click", function() { 
-    question_3_point = 2;
+    question_3_point = 6;
     question_3_completion = 1;
     btn3.classList.add("btn-active")
     if (question_3_point != question_3_point_recheck) {
@@ -446,7 +446,7 @@ option_34.addEventListener("click", function() {
     }
 });
 option_35.addEventListener("click", function() { 
-    question_3_point = 1;
+    question_3_point = 5;
     question_3_completion = 1;
     btn3.classList.add("btn-active")
     if (question_3_point != question_3_point_recheck) {
@@ -463,7 +463,7 @@ option_35.addEventListener("click", function() {
     }
 });
 option_36.addEventListener("click", function() { 
-    question_3_point = -1;btn3.classList.add("btn-active")
+    question_3_point = 4;btn3.classList.add("btn-active")
     question_3_completion = 1;
     if (question_3_point != question_3_point_recheck) {
         question_3_point_recheck = question_3_point;
@@ -479,7 +479,7 @@ option_36.addEventListener("click", function() {
     }
 });
 option_37.addEventListener("click", function() { 
-    question_3_point = -2;btn3.classList.add("btn-active")
+    question_3_point = 3;btn3.classList.add("btn-active")
     question_3_completion = 1;
     if (question_3_point != question_3_point_recheck) {
         question_3_point_recheck = question_3_point;
@@ -495,7 +495,7 @@ option_37.addEventListener("click", function() {
     }
 });
 option_38.addEventListener("click", function() { 
-    question_3_point = -3;btn3.classList.add("btn-active")
+    question_3_point = 2;btn3.classList.add("btn-active")
     question_3_completion = 1;
     if (question_3_point != question_3_point_recheck) {
         question_3_point_recheck = question_3_point;
@@ -511,7 +511,7 @@ option_38.addEventListener("click", function() {
     }
 });
 option_39.addEventListener("click", function() { 
-    question_3_point = -4;btn3.classList.add("btn-active")
+    question_3_point = 1;btn3.classList.add("btn-active")
     question_3_completion = 1;
     if (question_3_point != question_3_point_recheck) {
         question_3_point_recheck = question_3_point;
@@ -527,7 +527,7 @@ option_39.addEventListener("click", function() {
     }
 });
 option_41.addEventListener("click", function() { 
-    question_4_point = 5;btn4.classList.add("btn-active")
+    question_4_point = 9;btn4.classList.add("btn-active")
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
@@ -543,7 +543,7 @@ option_41.addEventListener("click", function() {
     }
 });
 option_42.addEventListener("click", function() { 
-    question_4_point = 4;btn4.classList.add("btn-active")
+    question_4_point = 8;btn4.classList.add("btn-active")
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
@@ -559,7 +559,7 @@ option_42.addEventListener("click", function() {
     }
 });
 option_43.addEventListener("click", function() { 
-    question_4_point = 3;btn4.classList.add("btn-active")
+    question_4_point = 7;btn4.classList.add("btn-active")
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
@@ -575,7 +575,7 @@ option_43.addEventListener("click", function() {
     }
 });
 option_44.addEventListener("click", function() { 
-    question_4_point = 2;btn4.classList.add("btn-active")
+    question_4_point = 6;btn4.classList.add("btn-active")
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
@@ -591,7 +591,7 @@ option_44.addEventListener("click", function() {
     }
 });
 option_45.addEventListener("click", function() { 
-    question_4_point = 1;btn4.classList.add("btn-active")
+    question_4_point = 5;btn4.classList.add("btn-active")
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
@@ -607,7 +607,7 @@ option_45.addEventListener("click", function() {
     }
 });
 option_46.addEventListener("click", function() { 
-    question_4_point = -1;btn4.classList.add("btn-active")
+    question_4_point = 4;btn4.classList.add("btn-active")
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
@@ -623,7 +623,7 @@ option_46.addEventListener("click", function() {
     }
 });
 option_47.addEventListener("click", function() { 
-    question_4_point = -2;btn4.classList.add("btn-active")
+    question_4_point = 3;btn4.classList.add("btn-active")
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
@@ -639,7 +639,7 @@ option_47.addEventListener("click", function() {
     }
 });
 option_48.addEventListener("click", function() { 
-    question_4_point = -3;btn4.classList.add("btn-active")
+    question_4_point = 2;btn4.classList.add("btn-active")
     question_4_completion = 1;
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
@@ -655,7 +655,7 @@ option_48.addEventListener("click", function() {
     }
 });
 option_49.addEventListener("click", function() { 
-    question_4_point = -4;
+    question_4_point = 1;
     question_4_completion = 1;btn4.classList.add("btn-active")
     if (question_4_point != question_4_point_recheck) {
         question_4_point_recheck = question_4_point;
