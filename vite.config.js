@@ -31,7 +31,9 @@ export default defineConfig({
                 tuyendung: resolve(__dirname, "src/tuyendung.html"),
                 hethong: resolve(__dirname, "src/tracnghiem.html"),
                 result: resolve(__dirname, "src/result.html"),
-                profile: resolve(__dirname, "src/profile.html")
+                profile: resolve(__dirname, "src/profile.html"),
+                dangnhap: resolve(__dirname, "src/dangnhap.html"),
+                dangky: resolve(__dirname, "src/dangky.html")
             },
         },
     },
