@@ -51,7 +51,7 @@ function drawCircle(container,id,progress,parent){
   }
   
   
-  $(window).on('load',function(){
+function load(){
     drawCircle('#chart-3',1,80,'#circle-1');
     
     counter(1000,'#counter1',999);
@@ -73,4 +73,5 @@ function drawCircle(container,id,progress,parent){
     counter(500,'.GAP-alignment-point',1.0);
     counter(500,'.GAP-development-point',0.9);
     counter(500,'.GAP-overall-point',0.5);
-  });
+  };
+load();
