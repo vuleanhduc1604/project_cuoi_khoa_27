@@ -30,7 +30,8 @@ export default defineConfig({
                 scrumkanban: resolve(__dirname, "src/scrumkanban.html"),
                 tuyendung: resolve(__dirname, "src/tuyendung.html"),
                 hethong: resolve(__dirname, "src/tracnghiem.html"),
-                result: resolve(__dirname, "src/result.html")
+                result: resolve(__dirname, "src/result.html"),
+                profile: resolve(__dirname, "src/profile.html")
             },
         },
     },
