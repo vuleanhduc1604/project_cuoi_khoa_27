@@ -1,6 +1,7 @@
 import { signup } from "./api.js";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+
 const form = document.querySelector(".signup");
 
 form.addEventListener("submit", async (e) => {
@@ -12,11 +13,8 @@ form.addEventListener("submit", async (e) => {
     const lastname = form.elements.lastname.value;
     try {
         const { data, headers } = await signup({ username, password, firstname, lastname });
-        
-        alert("You're signed up. Now log in pls");
-        setTimeout(function() {
+        alert("Đăng ký thành công")
             window.location.href = "../dangnhap.html";
-        }, 3000)
     } catch ({ response }) {
         alert(response.data.error);
     }
