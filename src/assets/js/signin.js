@@ -16,9 +16,9 @@ form.addEventListener("submit", async (e) => {
         const [_, token] = headers.authorization.split(" ");
 
         localStorage.setItem("token", token);
-        toastr.success('Đăng nhập thành công')
+        alert("Đăng nhập thành công")
 
-        setTimeout(() => {window.location.href = "index.html";},6000)
+        window.location.href = "index.html";
     } catch ({ response }) {
         alert(response.data.error);
     }
