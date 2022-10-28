@@ -2,7 +2,6 @@ import { login } from "./api.js";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import "./toastr.js"
 const form = document.querySelector(".login");
 
 form.addEventListener("submit", async (e) => {
@@ -17,7 +16,7 @@ form.addEventListener("submit", async (e) => {
         const [_, token] = headers.authorization.split(" ");
 
         localStorage.setItem("token", token);
-        toastr["success"]("Logged in successfully. Redirecting...")
+        toastr.success('Đăng nhập thành công')
 
         setTimeout(() => {window.location.href = "index.html";},6000)
     } catch ({ response }) {
