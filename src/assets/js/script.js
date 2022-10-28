@@ -36,3 +36,12 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+const menuLink = document.querySelector('.account');
+menuLink.addEventListener('click' , () => {
+  const token = localStorage.getItem('token');
+  if (!token) {
+    window.location.href = './dangnhap.html';
+  } else {
+    window.location.href = "./tracnghiem.html"
+  }
+})

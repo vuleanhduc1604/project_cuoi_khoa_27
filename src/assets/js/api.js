@@ -1,3 +1,5 @@
+
+import toastr from "./toastr.js";
 export const getuser = async () => {
     const token = localStorage.getItem('token');
 
@@ -42,7 +44,7 @@ export const login = async (user) => {
         return axios.request(reqOptions);
     } catch (err) {
         console.log(err);
-        alert("Invalid user info");
+        alert("Lỗi")
     }
 }
 
